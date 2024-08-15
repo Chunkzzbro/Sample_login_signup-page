@@ -1,0 +1,96 @@
+.register {
+  background-image: url("C:\\Users\\renji\\Desktop\\Webpage_Resources and Images\\Log_Reg\\register_background_img.png");
+  background-size: cover;
+  background-position: center;
+  width: 60%;
+  height: 80vh;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: row;
+}
+#leftsection2 {
+  padding: 10px;
+  display: inherit;
+  width: 60%;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 2%;
+}
+#rightsection2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+#reg_txt {
+  position: relative;
+  top: 97px;
+  left: 7px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 40px;
+}
+#reg_txt2 {
+  position: relative;
+  top: 100px;
+  left: 7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 15px;
+  text-align: justify;
+}
+.regdetails {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 30px;
+}
+#name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.FirstName {
+  width: 195px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: white;
+}
+.FirstName input {
+  height: 35px;
+  width: 195px;
+  background: none;
+  outline: none;
+  border: none;
+}
+#FirstNameText {
+  position: relative;
+  bottom: 50px;
+  left: 30px;
+  background-color: white;
+  width: fit-content;
+  border: none;
+}
+
+.LastName {
+  width: 195px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: white;
+}
+.LastName input {
+  height: 35px;
+  width: 195px;
+  background: none;
+  outline: none;
+  border: none;
+}
+#LastNameText {
+  position: relative;
+  bottom: 50px;
+  left: 30px;
+  background-color: white;
+  width: fit-content;
+  border: none;
+}
